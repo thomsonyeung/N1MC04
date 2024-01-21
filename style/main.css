@@ -1,0 +1,257 @@
+@charset "utf-8";
+
+/*
+ *
+ * Usage: PC page & Base layout
+ *
+ * Name: reset.css
+ *
+ * Date: 2011.03.25
+ *
+ */
+
+ 
+ /*---------------------------------------------------------------------
+Style Reset
+---------------------------------------------------------------------*/
+/* -- html -- */
+
+html  * {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#wrapper-main {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	height: auto;  /* -- auto -- */
+	border: 0px solid yellow;
+}
+
+div#control-panel {
+	position: relative;
+	margin: 20px auto;
+	width: 910px;
+	height: 100px;  /* -- auto -- */
+	border: 0px solid grey;
+}
+
+div#control-panel > p {
+	position: relative;
+	float: left;
+	margin: 10px 0px 3px 5px;
+	width: 150px;
+	height: 30px;  /* -- auto -- */
+	
+	
+}
+
+div#control-panel > p.btn {	
+	border: 0px solid red;
+	font-size: 1.5em;
+	color:#191970 ;
+	font-weight: bold;
+	line-height: 1.8em;
+	background-color: #F0F0F0 ;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: 4px;
+	
+	background-color: rgba(133,158,92,1);
+	color: #fff;
+	 
+	transition:  1s;
+	-ms-transition:  1s;
+	-moz-transition:  1s; 
+	-webkit-transition:  1s;
+	-o-transition:  1s;
+	
+	box-shadow:3px 3px 10px #BDB8BF;
+	border-radius:3px;
+	
+}
+
+div#control-panel > div#todoquest {
+	position: relative;
+	float: left;
+	margin: 10px 0px 3px 15px;
+	width: 250px;
+	margin-left: 20px;
+	border: 0px solid red;
+	font-size: 1.2em;
+	line-height: 2.3em;
+	
+	text-align: center;
+	cursor: pointer;
+	
+}
+
+div#control-panel > div#todoquest > input {
+	position: relative;
+	float: left;
+	display: block;
+	width: 33px;
+	height: 30px;
+	text-align: center;
+	
+	
+}
+
+div#control-panel > div#todoquest > p {
+	position: relative;
+	float: left;
+	margin-left: 5px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 4px;
+	
+		
+	background-color: #F0F0F0 ;
+	
+	cursor: pointer;
+	
+	background-color: rgba(133,158,92,1);
+	color: #fff;
+	 
+	transition:  1s;
+	-ms-transition:  1s;
+	-moz-transition:  1s; 
+	-webkit-transition:  1s;
+	-o-transition:  1s;
+	
+	box-shadow:3px 3px 10px #BDB8BF;
+	border-radius:3px;
+		
+}
+
+div#control-panel > div#todoquest > p:hover {
+	background-color: rgba(133,158,92,0.7);
+
+	
+}
+
+
+div#control-panel > p.btn:hover {
+
+	background-color: rgba(133,158,92,0.7);
+
+
+	
+}
+
+ul#question-section {
+	position: relative;
+	margin: 20px auto;
+	width: 910px;
+	height: auto;  /* -- auto -- */
+	border: 0px solid red;
+}
+
+
+ul#question-section > li {
+	position: relative;
+	float:left;
+	margin: 4px;
+	width: 280px;
+	height: 180px;  /* -- auto -- */
+	border-bottom: 1px solid #B0C4DE;
+}
+
+ul#question-section > li > div.mondai{
+	position: relative;
+	margin: 3px auto 0;
+	width: 98%;
+	height: 40px;  /* -- auto -- */
+	
+}
+
+ul#question-section > li > ul.sentakushi{
+	position: relative;
+	margin: 3px auto 0;
+	width: 98%;
+	height: 130px;  /* -- auto -- */
+	
+}
+
+ul#question-section > li > div.mondai > p{
+	position: relative;
+	float: left;
+	height: 36px;  /* -- auto -- */
+	margin-right: 2px;
+	font-size: 1.5em;
+	line-height: 2.5em;
+	
+	
+}
+
+ul#question-section > li > div.mondai > p:nth-of-type(1){
+
+	width: 55px;  /* -- auto -- */
+	background-color: rgba(250,90,50,0.2);
+	text-align: center;
+	
+	
+}
+
+ul#question-section > li > div.mondai > p:nth-of-type(2){
+
+	width: 165px;  /* -- auto -- */
+	background-color: rgba(145,205,241,0.3);
+	text-indent: 5px;
+	
+}
+
+ul#question-section > li > div.mondai > p:nth-of-type(3){
+
+	width: 45px;  /* -- auto -- */
+	background-color: silver;
+	text-indent: 5px;
+	cursor: pointer;
+}
+
+ul#question-section > li > div.mondai > p:nth-of-type(3):hover{
+
+	background-color: grey;
+
+}
+
+
+ul#question-section > li > ul.sentakushi > li{
+	position: relative;
+	margin: 1px auto 0;
+	width: 98%;
+	height: 30px;  /* -- auto -- */
+
+	
+
+	
+}
+
+ul#question-section > li > ul.sentakushi > li > input{
+	
+	position: relative;
+	float: left;
+	display: block;
+	margin-left: 30px;
+	width: 20px;
+	height: 30px;  /* -- auto -- */
+	font-size: 1.4em;
+	
+}
+
+ul#question-section > li > ul.sentakushi > li > p{
+	position: relative;
+	float: left;
+	display: block;
+	margin-left: 15px;
+	width: 190px;
+	height: 30px;  /* -- auto -- */
+	line-height: 1.8em;
+	font-size: 1.8em;
+
+
+}
+
